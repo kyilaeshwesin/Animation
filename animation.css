@@ -1,0 +1,27 @@
+button{
+    padding: 20px 40px;
+    border:1px solid saddlebrown;
+    background-color: antiquewhite;
+    
+    animation-name: move;
+    animation-duration: 3s;
+    transform: translate(200px);
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes move{
+    0%
+ {
+        transform: translateX(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateX(1000px) rotate(360deg);
+    }
+    100%{
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+
+
+
